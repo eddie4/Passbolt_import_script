@@ -1,12 +1,14 @@
 # Made by Eddie Bijnen  https://github.com/eddie4/Passbolt_import_script
+# support the guys behind passbolt they do awesome work
+
 import requests
 import urllib
 
-default_rol_id = "d1acbfc1-78d8-3e25-ad8b-7ab1eb0332dc"      # you can get this from the database or requests to passbolt
-CAKEPHP_cookie = "2eki5knkpvavq50tr2ghcejcn7"                # you can get this from the browser
-                                                             # useragent MUST MATCH the one you got the cookie from
+default_rol_id = "d1acbfc1-xxxxx-3e25-xxxx-7ab1eb0332dc"      # you can get this from the database or requests to passbolt
+CAKEPHP_cookie = "2eki5kxxxxxxxxx0tr2ghcejcn7"                # you can get this from the browser
+                                                              # useragent MUST MATCH the one you got the cookie from
 user_agent     = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0"
-server         = "passbolt.true.nl"
+server         = "passbolt.edworks.info"
 
 
 fname = "users.csv"

@@ -1,4 +1,5 @@
 # Made by Eddie Bijnen  https://github.com/eddie4/Passbolt_import_script
+# support the guys behind passbolt they do awesome work
 import subprocess
 import requests
 import urllib
@@ -6,11 +7,11 @@ import time
 import json
                                                             # Right click user manage your keys. Save pub key block mypupkey.gpg
                                                             # Import your key into gpg2 via gpg --import mypubkey.gpg
-gpg_pub_email = "eddie.bijnen@true.nl"
-public_key_id = "5a26be3b-4954-49ed-99c1-66bb57e9c1aa"      # you can get this from the database or requests to passbolt
-CAKEPHP_cookie= "5t74gfkah8rebe4vrj7mu5mt82"                # you can get this from your browser
-server = "passbolt.true.nl"                                 # your passbolt server
-destination_group = "5ab4ef13-f464-4e8c-83c1-04a957e9c1aa"  # you can get this from the database or requests to passbolt
+gpg_pub_email = "eddie@edworks.info"
+public_key_id = "5a26bexxxxxxxxx-99c1-66bb57e9c1aa"         # you can get this from the database or requests to passbolt
+CAKEPHP_cookie= "5t74gxxxxxxxxxxvrj7mu5mt82"                # you can get this from your browser
+server = "passbolt.edworks.info"                            # your passbolt server
+destination_group = "5ab4ef13-fxxxxxxxxxxxxxxx4a957e9c1aa"  # you can get this from the database or requests to passbolt
                                                             # useragent MUST MATCH the one you got the cookie from
 useragent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0"
 
