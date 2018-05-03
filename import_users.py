@@ -46,7 +46,7 @@ for line in data:
                'Referer': 'https://'+server+'/',
                'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
                'X-Requested-With': 'XMLHttpRequest',
-               'Cookie': '_ga=GA1.2.572836833.1501236163; '+CAKEPHP_cookie}
+               'Cookie': '_ga=GA1.2.572836833.1501236163; CAKEPHP='+CAKEPHP_cookie}
 
     r = requests.post("https://"+server+"/users",  headers=headers, data=payload)
 
